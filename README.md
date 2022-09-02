@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/SoulOfMo/clipboard-landing-page.git)
+- Live Site: [Live Site](https://soulofmo.github.io/clipboard-landing-page/)
 
 ## My process
 
