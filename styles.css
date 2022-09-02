@@ -1,0 +1,383 @@
+/** General **/
+* {
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+h1,
+h2,
+h3 {
+    line-height: 1.5em;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+body {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header.logo {
+    margin: 130px 0 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+#intro h1 {
+    text-align: center;
+    margin: 0 auto 15px;
+}
+
+main p {
+    line-height: 1.7em;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+#intro p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+button {
+    width: 200px;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 {
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 15px;
+}
+
+.btn1:active {
+    background-color: hsla(171, 66%, 44%, 0.6);
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.btn2:active {
+    background-color: hsla(233, 100%, 69%, 0.6);
+    cursor: pointer;
+}
+
+.feat1,
+.feat3 {
+    margin-top: 100px;
+}
+
+.feat1 h2,
+.feat3 h2,
+.end h2 {
+    margin: 0 auto 15px;
+    text-align: center;
+}
+
+.feat1 p,
+.feat3 p,
+.end p {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.feat2 {
+    display: flex;
+    margin: 70px 0 0;
+}
+
+.feat2 img {
+    width: 45%;
+    height: 100%;
+    margin-left: -40px;
+    margin-right: 70px;
+}
+
+.feat2 h3 {
+    margin-top: 40px;
+}
+
+.right p {
+    max-width: 385px;
+}
+
+.feat3 img {
+    display: block;
+    width: 50%;
+    margin: 70px auto;
+}
+
+.feat4 {
+    display: flex;
+    margin: 70px auto 0;
+    justify-content: center;
+}
+
+#icons {
+    width: 30%;
+}
+
+.icons.icon img {
+    height: 32px;
+}
+
+.icons img {
+    display: block;
+    margin: 0 auto 25px;
+}
+
+#icons h3 {
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+#icons p {
+    text-align: center;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.feat5 {
+    display: flex;
+    margin: 100px auto 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feat5 .logo {
+    margin-right: 100px;
+}
+
+.logo.microsoft {
+    margin-top: 10px;
+}
+
+.logo.vector-graphics {
+    margin-top: 10px;
+}
+
+.end {
+    margin: 100px 0;
+}
+
+.end #btn {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: hsl(201, 11%, 66%);
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer .logo img {
+    width: 50%;
+}
+
+.break {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.break p:first-of-type {
+    margin-bottom: 10px;
+}
+
+.break p:active {
+    color: hsl(171, 66%, 44%);
+}
+
+.last {
+    visibility: hidden;
+}
+
+.social {
+    display: inline-block;
+}
+
+.social i:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.twitter {
+    margin: 0 10px;
+}
+
+@media (max-width:450px) {
+    body {
+        background-image: url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .feat2,
+    .feat4,
+    .feat5,
+    footer,
+    #btn {
+        display: block;
+    }
+
+    header.logo {
+        margin: 150px auto 80px;
+    }
+
+    #intro {
+        margin-bottom: 200px;
+    }
+
+    #intro h1 {
+        max-width: 280px;
+    }
+
+    #intro p {
+        max-width: 300px;
+        margin: 0 auto 40px;
+    }
+
+    button {
+        width: 300px;
+        font-weight: 600;
+    }
+
+    .btn1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .btn2 {
+        display: block;
+        margin: 25px auto 0;
+    }
+
+    .feat1,
+    .feat3 h2 {
+        max-width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .feat1,
+    .feat2,
+    .feat3 {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .feat1 {
+        margin-bottom: 70px;
+    }
+
+    .feat3, .end {
+        margin-top: 200px;
+    }
+
+    .feat2 img {
+        width: 100%;
+        margin: 0 auto 0px;
+    }
+
+    .feat2 h3 {
+        text-align: center;
+    }
+
+    .feat3>img {
+        width: 100%;
+        margin: 60px auto;
+    }
+
+    .feat4 {
+        margin-top: 100px;
+    }
+
+    #icons {
+        width: 100%;
+    }
+
+    .icons.icon img {
+        height: unset;
+    }
+
+    .icons img {
+        display: block;
+        margin: 50px auto 40px;
+    }
+
+    #icons,
+    .end p {
+        max-width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .feat5 .logo {
+        margin: 0px auto;
+    }
+
+    .logo img {
+        display: block;
+        margin: 70px auto;
+    }
+
+    .end h2 {
+        max-width: 300px;
+    }
+
+    footer .logo {
+        height: unset;
+        margin: 0 auto;
+    }
+
+    footer .logo img {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .break {
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer p {
+        margin: 30px 0 0;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    div#social {
+        display: flex;
+        justify-content: center;
+    }
+
+    .twitter {
+        margin: 3px 35px 0px;
+    }
+
+    .social i:hover {
+        color: aquamarine;
+    }
+}
