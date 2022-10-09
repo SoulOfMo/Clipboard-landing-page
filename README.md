@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/SoulOfMo/clipboard-landing-page.git)
-- Live Site: [Live Site](https://soulofmo.github.io/clipboard-landing-page/)
+- Live Site: [Live Site](https://soulofmo.github.io/Clipboard-landing-page/)
 
 ## My process
 
